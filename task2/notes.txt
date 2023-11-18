@@ -1,0 +1,13 @@
+The elbow method is a technique used in clustering analysis to determine the optimal number of cluster(k) for a given dataset.
+it involves running a clustering algorothim with differnet values of k
+and plotting the explained variation or distortion as a function of the
+number of clusters.
+
+The elbow of the plot is then used to identify the point where adding more clusters does not significantly improve the quality of the clustering.
+
+General steps of the elbow method:
+1. Run the clustering algorithm.
+2. Compute a measure of variation.
+3. plot the results.
+4. identify the elbow.
+5. select the optimal number of clusters.
